@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Threejs Starter Bolier Plate</title>
+    <meta name="description" content="Three.js template using Glitch by Anderson Mancini" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, threejs, wix" />
+    <meta name="author" content="Anderson Mancini" />
+
+    <link rel="stylesheet" href="./src/styles.css" />
+
+    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.145.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.145.0/examples/jsm/",
+          "postprocessing": "https://cdn.jsdelivr.net/npm/postprocessing@6.30.0/build/postprocessing.esm.js"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>
